@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<title>Backendless Testing</title>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    <script src="js/backendless.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div data-role="page" id="todoPage">
+        <div role="main" class="ui-content">
+            <input type="text" name="taskInput" id="addTaskText" value="" placeholder="New Task..." />
+            <input type="button" id="addTaskButton" value="Add Task" />
+            <ul data-role="listview" id="taskList"><br>
+            </ul>
+        </div>
+	</div>
+</body>
+</html>
